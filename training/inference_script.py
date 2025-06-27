@@ -15,7 +15,7 @@ LABEL2ID_JB = {"BENIGN": 0, "JAILBREAK": 1}
 # --- NEW: Inference Threshold for Jailbreak Detection ---
 # The model will only flag a prompt as 'JAILBREAK' if its confidence (probability) for that class
 # is above this threshold. Otherwise, it will be classified as 'BENIGN'.
-JAILBREAK_THRESHOLD = 0.9 # Set to 90% confidence as a starting point. Adjust as needed.
+JAILBREAK_THRESHOLD = 0.82 # Set to 90% confidence as a starting point. Adjust as needed.
 
 def load_finetuned_model_for_inference(adapter_path, base_model_name):
     """
