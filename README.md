@@ -29,7 +29,7 @@ The defense pipeline consists of 7 sequential steps:
 
 1. **Clone the repository**
    ```bash
-   git clone [YOUR_REPOSITORY_URL]
+   git clone https://github.com/atharvbindal/ManageMash.git
    cd Managemash
    ```
 
