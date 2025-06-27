@@ -2,6 +2,9 @@
 
 A comprehensive AI security system that processes text through multiple defense layers to detect and prevent malicious inputs before they reach your main LLM.
 
+![Screenshot 2025-06-27 120401](https://github.com/user-attachments/assets/552546a4-a93f-435f-8c44-c54e459e1c91)
+
+
 ## 🔧 System Architecture
 
 The defense pipeline consists of 7 sequential steps:
@@ -26,7 +29,7 @@ The defense pipeline consists of 7 sequential steps:
 
 1. **Clone the repository**
    ```bash
-   git clone [YOUR_REPOSITORY_URL]
+   git clone https://github.com/atharvbindal/ManageMash.git
    cd Managemash
    ```
 
@@ -191,16 +194,15 @@ export TOKENIZERS_PARALLELISM=true
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
-- Hugging Face for transformer models
+- Hugging Face for transformer models and datasets
 - Groq for LLM API access
+- Thales for motivation and opportunity
 - MyMemory for translation services
-- The open-source AI security community
+- The open-source AI community
+- 
 
 ## 📞 Support
 
